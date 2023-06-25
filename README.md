@@ -1,4 +1,4 @@
-Lab Assignment Documentation
+#Lab Assignment Documentation
 Project Overview
 Lab Assignment is a Node.js project that provides functionality for creating, deleting, and updating promotions using RESTful APIs. This documentation will guide you through the setup and usage of the project.
 
