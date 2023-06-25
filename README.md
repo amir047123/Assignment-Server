@@ -1,4 +1,4 @@
-# Project Name
+#Lab Assignment 
 
 This is a Node.js project that requires the use of environment variables. In order to run the project locally or in a production environment, you need to set up a `.env` file.
 
