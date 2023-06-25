@@ -26,12 +26,13 @@ mongoose
   });
 
 // Routes
-app.use("/dishes", dishRouter);
-app.use("/promotions", promoRouter);
-app.use("/leaders", leaderRouter);
+app.use("/dishes", dishRouter); // Use dishRouter for '/dishes' endpoint
+app.use("/promotions", promoRouter); // Use promoRouter for '/promotions' endpoint
+app.use("/leaders", leaderRouter); // Use leaderRouter for '/leaders' endpoint
 
+// Default route
 app.get("/", (req, res) => {
-  res.send("Server is a Running .Now You Can Check RestApi");
+  res.send("Server is running. Now you can check the REST API.");
 });
 
 module.exports = app;
